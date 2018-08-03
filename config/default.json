@@ -1,0 +1,9 @@
+{
+    "github": {
+        "api": "https://api.github.com/",
+        "token": "94aa5e8f9af2d1fdb36c46ada044ba9711963e6e",
+        "repos_url": "users/{username}/repos",
+        "user_url":"users/{username}",
+        "batch_size": 5
+    }
+}

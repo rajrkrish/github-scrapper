@@ -1,0 +1,27 @@
+{
+  "name": "web_scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^1.30.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.4",
+    "parse-link-header": "^1.0.1",
+    "winston": "^3.0.0-rc6"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint github/*.js index.js",
+    "lint:fix": "eslint --fix github/*.js index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
